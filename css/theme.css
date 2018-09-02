@@ -5238,6 +5238,14 @@ ul.list-reset {
   color: #fff;
 }
 
+.section-statistic.section-statistic-cover .box-number .quote{
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+  
+}
+
+
 @media (max-width: 767px) {
   .section-statistic .box-number {
     margin-bottom: 60px;

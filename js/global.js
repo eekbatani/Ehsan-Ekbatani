@@ -311,7 +311,7 @@
 
     // Bind to scroll
     $(window).on('load', function () {
-        var topMenu = $('.header-one-page'),
+        var topMenu = $('.page-wrapper'),
             menuItems = topMenu.find(".nav-link[href^='#']"),
             scrollItems = menuItems.map(function() {
                 var item = $($(this).attr("href"));

@@ -335,7 +335,7 @@
             var id = cur && cur.length ? cur[0].id : "";
             menuItems
                 .parent().removeClass("active")
-                .end().filter("[href='#"+id+"']").parent().addClass("active");
+               // .end().filter("[href='#"+id+"']").parent().addClass("active");
         });
     });
 
